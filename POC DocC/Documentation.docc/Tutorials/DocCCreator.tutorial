@@ -1,0 +1,12 @@
+@Tutorials(name: "Doc C Creator") {
+    @Intro(title: "Meet Doc C") {
+        
+        @Image(source: slothcreator-intro.png, alt: "This is test description")
+    }
+    
+    @Chapter(name: "Chapter 1") {
+        @Image(source: chapter1-slothcreatorEssentials.png, alt: "This is test description 2")         
+        @TutorialReference(tutorial: "doc:Chapter-1")
+
+    }
+}

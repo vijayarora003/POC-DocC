@@ -1,0 +1,11 @@
+@Tutorial(time: 30) {
+    @Intro(title: "Chapter 1") {        
+        @Image(source: creating-intro.png, alt: "Intro")
+    }
+    
+    @Section(title: "Add a customization view") {
+        @ContentAndMedia {            
+            @Image(source: 01-creating-section2.png, alt: "Outline")
+        }
+    }
+}
